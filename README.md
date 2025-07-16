@@ -9,7 +9,7 @@
 
 ### Решение 1. Установка RabbitMQ
 
-
+![RabbitMQ](https://github.com/zlodey-paha/11-04-hw/blob/main/RabbitMQ.PNG)
 
 ---
 
@@ -34,7 +34,8 @@ $ pip install pika
 
 ### Решение 2. Отправка и получение сообщений
 
-
+![Prodecur](https://github.com/zlodey-paha/11-04-hw/blob/main/producer.PNG)
+![Consumer](https://github.com/zlodey-paha/11-04-hw/blob/main/consumer.PNG)
 
 ---
 
