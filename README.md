@@ -56,11 +56,16 @@ $ cat /etc/hosts
 
 *В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.*
 
+![ServerrQueue](https://github.com/zlodey-paha/11-04-hw/blob/main/ServerQueue.PNG)
+
 Также приложите вывод команды с двух нод:
 
 ```shell script
 $ rabbitmqctl cluster_status
 ```
+
+![ServerCluster](https://github.com/zlodey-paha/11-04-hw/blob/main/ServerCluster.PNG)
+![ClientCluster](https://github.com/zlodey-paha/11-04-hw/blob/main/ClientCluster.PNG)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
