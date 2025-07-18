@@ -73,6 +73,9 @@ $ rabbitmqctl cluster_status
 $ rabbitmqadmin get queue='hello'
 ```
 
+![ServerQueueHello](https://github.com/zlodey-paha/11-04-hw/blob/main/ServerQueueHello.PNG)
+![ClientQueueHello](https://github.com/zlodey-paha/11-04-hw/blob/main/ClientQueueHello.PNG)
+
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
